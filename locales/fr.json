@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "cta": {
+    "book": "Réservez votre service",
+    "discover": "Découvrir nos services"
+  }
+}

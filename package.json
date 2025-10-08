@@ -1,0 +1,30 @@
+{
+  "name": "autovalley",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.545.0",
+    "nuxt": "^3.13.2",
+    "yup": "^1.4.0",
+    "http-shutdown": "file:packages/http-shutdown"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^1.0.0",
+    "@nuxtjs/i18n": "^8.5.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.12",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.5"
+  }
+}
