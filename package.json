@@ -1,0 +1,12 @@
+{
+  "name": "auto-valley-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing site for Auto Valley automotive services.",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

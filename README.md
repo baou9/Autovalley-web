@@ -5,6 +5,17 @@ A responsive marketing site for the Auto Valley automotive service center in Cas
 ## Getting Started
 Open `index.html` in your browser or serve the repository locally (e.g., `python -m http.server`) to view the pages.
 
+### Optional Node workflow
+
+Some hosting providers expect a Node-based build step. Run the lightweight build script to copy the static assets into a `dist/` folder:
+
+```bash
+npm install # no dependencies, but initializes the lockfile
+npm run build
+```
+
+The `build` command does not require `nodenv`; any Node.js runtime `>=16` will work. The generated `dist/` directory can be uploaded directly to your hosting provider. If your platform allows you to configure the build command, set it to `npm run build` and the publish directory to `dist`.
+
 ## Pages
 - `index.html` – Homepage with hero, services, sustainability highlights, testimonials carousel, FAQs, and CTAs.
 - `about.html` – Company history, mission, and team highlights.
